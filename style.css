@@ -1,0 +1,135 @@
+    :root{
+        --color-basic: #fff;
+        --color-mark: #ffd900;
+        --color-main: #514988;
+        --color-special: #E33881;
+    }
+    
+    
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    /*-- Header --*/
+
+    header{
+        background-color: var(--color-mark);
+        padding: 1.688rem 0rem 1.688rem 3.625rem;
+    }
+
+    /*-- Banner --*/
+
+    #banner{
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    #textBanner{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: var(--color-main);
+        color: var(--color-basic);
+    }
+
+    #textBanner h1{
+        font-size: 4.375rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 5rem 0rem 1.5rem 0rem;
+        color: var(--color-mark);
+
+    }
+
+    #textBanner h2{
+        margin-bottom: 4rem;
+        font-size: 1.875rem;
+        text-transform: uppercase;
+    }
+
+    #textBanner p{
+        margin-top: 1rem;
+        font-size: 1.813rem;
+
+    }
+
+    /*-- countdowm --*/
+
+    #countdowmBanner{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+
+    }
+
+    #countdowm{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .date{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: var(--color-main);
+        font-size: 3.438rem;
+
+    }
+
+    #titleContdowm{
+        color: var(--color-special);
+        text-align: center;
+        font-size: 2.25rem;
+    }
+
+
+    #imgContdowm img{
+        width: 96%;
+        margin: 0.5rem auto;
+        text-align: center;
+    }
+
+    /*-- Footer --*/
+
+    #footer h2{
+        margin: 1rem 0rem 1rem 23rem;
+        font-size: 1.688rem;
+        color: var(--color-mark);
+        font-weight: 800;
+        text-transform: uppercase;
+        
+
+    }
+
+    #divCards{
+        display:flex ;
+        align-items: center;
+    }
+
+    #cardsFooter{
+        width: 56%;
+        margin: 1rem 0rem 2.375rem 4rem;
+    }
+
+
+    button{
+        font-size: 2.625rem;
+        color: var(--color-basic);
+        background-color: var(--color-main);
+        padding: 2.125rem 5.625rem;
+        border: 0;
+        border-radius: 1.25rem;
+        text-transform: uppercase;
+        font-weight: 550;
+        cursor: pointer;
+    }
+
+    button:hover{
+        color: var(--color-mark);
+        background-color: #514988bb;
+
+    }
